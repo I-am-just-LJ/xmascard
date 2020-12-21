@@ -29,6 +29,9 @@
         text-align: center;
       }
       .letter-close {
+        display: block;
+      }
+      .letter-open {
         display: none;
       }
       .rtan {
@@ -66,6 +69,23 @@
       .from {
         text-align: right;
         margin-bottom: 0;
+      }
+      @media screen and (max-width: 760px) {
+        .messagebox {
+          width: 300px;
+          padding: 20px;
+        }
+        .rtan {
+          width: 150px;
+          height: 150px;
+          margin: 70px auto 0px auto;
+        }
+        h1 {
+          font-size: 28px;
+        }
+        .envelope {
+          margin: 150px auto 0px auto;
+        }
       }
     </style>
   </head>
